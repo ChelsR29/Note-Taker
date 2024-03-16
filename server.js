@@ -8,8 +8,8 @@ const app = express();
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use('/', htmlRoutes); // Set up HTML routes
-app.use('/api', apiRoutes); // Set up API routes
+app.use(htmlRoutes); // Set up HTML routes
+app.use(apiRoutes); // Set up API routes
 
 app.use(express.static('public')); // Serve static files from the 'public' folder
 
