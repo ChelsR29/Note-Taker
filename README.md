@@ -10,4 +10,4 @@ This Note Taker Application uses an express.js back end and saves/retrieves note
 
 ## Link to Deployed Application
 
-https://frozen-peak-12428-63b0a52ed80b.herokuapp.com/notes
+https://frozen-peak-12428-63b0a52ed80b.herokuapp.com/
